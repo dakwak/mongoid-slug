@@ -151,7 +151,7 @@ module Mongoid
         end
       else
         def current_scope
-          scope_stack.last
+          scopes.last
         end
       end
     end
