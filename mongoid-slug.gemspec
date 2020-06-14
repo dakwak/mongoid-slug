@@ -2,7 +2,7 @@ $LOAD_PATH.push File.expand_path('lib', __dir__)
 require 'mongoid/slug/version'
 
 Gem::Specification.new do |s|
-  s.name        = 'mongoid-slug'
+  s.name        = Mongoid::Slug::VERSION
   s.version     = "0.0.7"
   s.platform    = Gem::Platform::RUBY
   s.authors     = ['Andreas Saebjoernsen']
