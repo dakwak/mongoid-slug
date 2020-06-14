@@ -3,7 +3,7 @@ require 'mongoid/slug/version'
 
 Gem::Specification.new do |s|
   s.name        = 'mongoid-slug'
-  s.version     = Mongoid::Slug::VERSION
+  s.version     = "0.0.7"
   s.platform    = Gem::Platform::RUBY
   s.authors     = ['Andreas Saebjoernsen']
   s.email       = ['andy@cosemble.com']
